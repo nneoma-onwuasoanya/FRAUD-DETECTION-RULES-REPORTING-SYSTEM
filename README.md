@@ -11,11 +11,12 @@ Which users trigger the highest number of fraud alerts?
 What types of fraud occur most frequently?
 
 ### Methodology
-Cleaned and prepared transaction data using Excel
-Applied logical rules to detect suspicious activities
-Used functions such as COUNTIF to aggregate fraud alerts
-Built Pivot Tables to analyze user behavior and alert frequency
-Created summary metrics to evaluate fraud trends.
+1. Cleaned and prepared transaction data using Excel
+2. Applied logical rules to detect suspicious activities
+3. Used functions such as COUNTIF to aggregate fraud alerts
+4. Built Pivot Tables to analyze user behavior and alert frequency
+5. Created summary metrics to evaluate fraud trends.
+
 
 ### Fraud Detection Rules Implemented
 
@@ -48,38 +49,33 @@ Flag more than 2 withdrawals within 24 hours
 Detects rapid fund extraction behavior
 
 ### Key Insights
-High Alert Rate (49%) suggests either high fraud risk or overly sensitive rules
-Multiple Accounts from Same IP is a major fraud indicator
-Repeated Transactions indicate automated or scripted behavior
-Multiple Failed Payments suggest card testing activity
-Certain users triggered multiple alert types, indicating high-risk accounts
+1. High Alert Rate (49%) suggests either high fraud risk or overly sensitive rules
+2. Multiple Accounts from Same IP is a major fraud indicator
+3. Repeated Transactions indicate automated or scripted behavior
+4. Multiple Failed Payments suggest card testing activity
+5. Certain users triggered multiple alert types, indicating high-risk accounts
 
 ### Recommendations
-Implement Automated Blocking to stop repeated transactions and failed attempts in real time
-
-Enhance User Verification and add extra authentication for high-risk transactions
-
-Limit Account Creation and restrict the number of accounts per IP address
-
-Monitor High-Risk Users to focus on users triggering multiple alerts
-
-Refine Detection Rules and adjust thresholds to reduce false positives
-
-Track Fraud Trends by monitor alert rates weekly or monthly
+1. Implement Automated Blocking to stop repeated transactions and failed attempts in real time
+2. Enhance User Verification and add extra authentication for high-risk transactions
+3. Limit Account Creation and restrict the number of accounts per IP address
+4. Monitor High-Risk Users to focus on users triggering multiple alerts
+5. Refine Detection Rules and adjust thresholds to reduce false positives
+6. Track Fraud Trends by monitor alert rates weekly or monthly
 
 ### Skills Demonstrated
-Data Cleaning & Preparation
-Data Analysis using Excel
-Fraud Detection Logic
-Pivot Tables & Aggregation
-Business Insight Generation
-Risk Analysis
+1. Data Cleaning & Preparation
+2. Data Analysis using Excel
+3. Fraud Detection Logic
+4. Pivot Tables & Aggregation
+5. Business Insight Generation
+6. Risk Analysis
 
 ### Limitations
-A small dataset (100 transactions) may not represent real-world behavior
-A rule-based system may generate false positives
-No machine learning model used
-Limited historical data for trend analysis
+1. A small dataset (100 transactions) may not represent real-world behavior
+2. A rule-based system may generate false positives
+3. No machine learning model used
+4. Limited historical data for trend analysis
 
 ### Future Improvements
 Build a machine learning fraud detection model
