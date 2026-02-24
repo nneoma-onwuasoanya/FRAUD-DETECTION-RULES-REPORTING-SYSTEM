@@ -78,7 +78,7 @@ Detects rapid fund extraction behavior
 4. Limited historical data for trend analysis
 
 ### Future Improvements
-Build a machine learning fraud detection model
-Use larger real-world datasets
-Integrate real-time monitoring dashboards (Power BI / Tableau)
-Apply anomaly detection techniques
+1. Build a machine learning fraud detection model
+2. Use larger real-world datasets
+3. Integrate real-time monitoring dashboards (Power BI / Tableau)
+4. Apply anomaly detection techniques
